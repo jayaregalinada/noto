@@ -4,8 +4,8 @@ A lightweight collaborative document editor — inspired by Google Docs — buil
 the AI-Native Full Stack assessment. Create, edit, import, and share rich-text
 documents with a clear owner/collaborator model and real persistence.
 
-> **Live demo:** _added after deployment_ · Log in as any seeded account (no
-> password). Start as **Ada Lovelace** to see a document already shared with Alan.
+> **Live demo:** **https://noto-apps.vercel.app** · Log in as any seeded account
+> (no password). Start as **Ada Lovelace** to see a document already shared with Alan.
 
 ---
 
