@@ -1,10 +1,9 @@
 'use client';
 
-import * as React from 'react';
+import { IconCheck, IconChevronDown, IconChevronUp } from '@tabler/icons-react';
 import { Select as SelectPrimitive } from 'radix-ui';
-
+import type * as React from 'react';
 import { cn } from '@/lib/utils';
-import { IconChevronDown, IconCheck, IconChevronUp } from '@tabler/icons-react';
 
 function Select({ ...props }: React.ComponentProps<typeof SelectPrimitive.Root>) {
   return <SelectPrimitive.Root data-slot="select" {...props} />;
