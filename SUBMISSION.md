@@ -6,7 +6,7 @@ A lightweight collaborative document editor inspired by Google Docs.
 
 - **Live product:** https://noto-apps.vercel.app
 - **Source code:** https://github.com/jayaregalinada/noto
-- **Walkthrough video:** see [`WALKTHROUGH-VIDEO.txt`](WALKTHROUGH-VIDEO.txt)
+- **Walkthrough video:** https://www.loom.com/share/d84a34197e604ab794edf091ded649eb
 
 ## What's included
 
@@ -18,7 +18,7 @@ A lightweight collaborative document editor inspired by Google Docs.
 | AI workflow note | [`AI-WORKFLOW.md`](AI-WORKFLOW.md) |
 | This submission index | `SUBMISSION.md` |
 | Live product URL | https://noto-apps.vercel.app |
-| Walkthrough video URL | [`WALKTHROUGH-VIDEO.txt`](WALKTHROUGH-VIDEO.txt) |
+| Walkthrough video | [Loom](https://www.loom.com/share/d84a34197e604ab794edf091ded649eb) · [`WALKTHROUGH-VIDEO.txt`](WALKTHROUGH-VIDEO.txt) |
 | Screenshots | [`docs/screenshots/`](docs/screenshots/) |
 | Database schema + seed | [`supabase/schema.sql`](supabase/schema.sql) |
 

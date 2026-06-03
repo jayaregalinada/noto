@@ -1,7 +1,7 @@
 Noto — Walkthrough Video
 ========================
 
-Video URL: <PASTE LINK HERE>   (e.g. Loom / YouTube unlisted / Google Drive)
+Video URL: https://www.loom.com/share/d84a34197e604ab794edf091ded649eb
 
 Suggested 2-3 minute script:
 1. Live URL + log in as Ada (no password — simulated auth).

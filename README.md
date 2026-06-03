@@ -6,6 +6,8 @@ documents with a clear owner/collaborator model and real persistence.
 
 > **Live demo:** **https://noto-apps.vercel.app** · Log in as any seeded account
 > (no password). Start as **Ada Lovelace** to see a document already shared with Alan.
+>
+> **Walkthrough video:** https://www.loom.com/share/d84a34197e604ab794edf091ded649eb
 
 ---
 
