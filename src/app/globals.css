@@ -127,6 +127,14 @@
   html {
     @apply font-sans;
   }
+  /* Tailwind v4 no longer sets cursor:pointer on buttons. Restore it for all
+     interactive controls (links already default to pointer). */
+  button:not(:disabled),
+  [role='button']:not(:disabled),
+  label[for],
+  summary {
+    cursor: pointer;
+  }
 }
 
 /* Tiptap editor content styles ("prose"-like, scoped to the editor) */
