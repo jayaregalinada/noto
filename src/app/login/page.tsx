@@ -1,14 +1,8 @@
-import { IconFileText } from '@tabler/icons-react';
 import { redirect } from 'next/navigation';
+import { NotoLogo } from '@/components/noto-logo';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader } from '@/components/ui/card';
 import { getCurrentUser } from '@/lib/auth';
 import { listUsers } from '@/lib/documents';
 import { initialsOf } from '@/lib/text';
@@ -27,10 +21,7 @@ export default async function LoginPage({ searchParams }: LoginPageProps) {
     <main className="flex flex-1 items-center justify-center p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto mb-2 flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10">
-            <IconFileText className="h-6 w-6 text-primary" />
-          </div>
-          <CardTitle className="text-2xl">Ajaia Docs</CardTitle>
+          <NotoLogo className="mx-auto mb-1 h-9 w-auto" />
           <CardDescription>
             Choose a demo account to continue. This is simulated auth — no password
             required.

@@ -1,4 +1,4 @@
-# Ajaia Docs
+# Noto
 
 A lightweight collaborative document editor — inspired by Google Docs — built for
 the AI-Native Full Stack assessment. Create, edit, import, and share rich-text

@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Ajaia Docs',
+  title: 'Noto',
   description: 'A lightweight collaborative document editor.',
 };
 

@@ -1,5 +1,5 @@
-import { IconFileText } from '@tabler/icons-react';
 import Link from 'next/link';
+import { NotoLogo } from '@/components/noto-logo';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Button } from '@/components/ui/button';
 import { initialsOf } from '@/lib/text';
@@ -10,12 +10,8 @@ export function AppHeader({ user }: { user: User }) {
   return (
     <header className="border-b border-border bg-card">
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-3">
-        <Link
-          href="/documents"
-          className="flex items-center gap-2 font-semibold tracking-tight"
-        >
-          <IconFileText className="h-5 w-5 text-primary" />
-          Ajaia Docs
+        <Link href="/documents" aria-label="Noto home" className="flex items-center">
+          <NotoLogo className="h-6 w-auto" />
         </Link>
 
         <div className="flex items-center gap-3">

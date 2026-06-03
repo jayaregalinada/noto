@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- Ajaia Docs — database schema + seed data.
+-- Noto — database schema + seed data.
 -- Run this once in the Supabase SQL Editor (or via `supabase db` tooling).
 -- Safe to re-run: every statement is idempotent.
 -- ---------------------------------------------------------------------------
@@ -52,8 +52,8 @@ on conflict (id) do nothing;
 insert into public.documents (id, title, content_html, owner_id) values
   (
     'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa',
-    'Welcome to Ajaia Docs',
-    '<h1>Welcome to Ajaia Docs</h1><p>This sample is owned by <strong>Ada</strong> and shared with <strong>Alan</strong> as an editor.</p><p>Try the toolbar:</p><ul><li><strong>Bold</strong>, <em>italic</em>, <u>underline</u></li><li>Headings and text sizes</li><li>Bulleted and numbered lists</li></ul><p>Everything autosaves and survives a refresh.</p>',
+    'Welcome to Noto',
+    '<h1>Welcome to Noto</h1><p>This sample is owned by <strong>Ada</strong> and shared with <strong>Alan</strong> as an editor.</p><p>Try the toolbar:</p><ul><li><strong>Bold</strong>, <em>italic</em>, <u>underline</u></li><li>Headings and text sizes</li><li>Bulleted and numbered lists</li></ul><p>Everything autosaves and survives a refresh.</p>',
     '11111111-1111-1111-1111-111111111111'
   )
 on conflict (id) do nothing;
