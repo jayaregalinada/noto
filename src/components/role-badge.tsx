@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 
 const roleStyles: Record<Role, string> = {
   owner: 'border-transparent bg-primary/10 text-primary',
-  editor: 'border-transparent bg-blue-500/10 text-blue-600 dark:text-blue-400',
+  editor: 'border-transparent bg-accent/15 text-accent',
   viewer: 'border-transparent bg-muted text-muted-foreground',
 };
 
