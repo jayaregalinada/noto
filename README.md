@@ -134,10 +134,10 @@ pnpm dev      # http://localhost:3000
 ### Seeded accounts
 | Name | Email |
 |---|---|
-| Ada Lovelace | `ada@ajaia.test` |
-| Alan Turing | `alan@ajaia.test` |
-| Grace Hopper | `grace@ajaia.test` |
-| Katherine Johnson | `katherine@ajaia.test` |
+| Ada Lovelace | `ada@noto.test` |
+| Alan Turing | `alan@noto.test` |
+| Grace Hopper | `grace@noto.test` |
+| Katherine Johnson | `katherine@noto.test` |
 
 The sample document is owned by Ada and shared with Alan (editor).
 

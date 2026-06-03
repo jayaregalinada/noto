@@ -92,7 +92,7 @@ export function ShareDialog({ documentId, owner, collaborators }: ShareDialogPro
           <DialogTitle>Share document</DialogTitle>
           <DialogDescription>
             Grant access by email. Seeded accounts are ada@, alan@, grace@, and katherine@
-            (all <span className="font-mono">@ajaia.test</span>).
+            (all <span className="font-mono">@noto.test</span>).
           </DialogDescription>
         </DialogHeader>
 
@@ -100,7 +100,7 @@ export function ShareDialog({ documentId, owner, collaborators }: ShareDialogPro
           <Input
             type="email"
             required
-            placeholder="name@ajaia.test"
+            placeholder="name@noto.test"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
           />

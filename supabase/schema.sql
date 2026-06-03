@@ -41,10 +41,10 @@ create index if not exists idx_shares_user on public.document_shares (user_id);
 -- Seed users (fixed UUIDs so demos are stable).
 -- ---------------------------------------------------------------------------
 insert into public.users (id, name, email) values
-  ('11111111-1111-1111-1111-111111111111', 'Ada Lovelace', 'ada@ajaia.test'),
-  ('22222222-2222-2222-2222-222222222222', 'Alan Turing', 'alan@ajaia.test'),
-  ('33333333-3333-3333-3333-333333333333', 'Grace Hopper', 'grace@ajaia.test'),
-  ('44444444-4444-4444-4444-444444444444', 'Katherine Johnson', 'katherine@ajaia.test')
+  ('11111111-1111-1111-1111-111111111111', 'Ada Lovelace', 'ada@noto.test'),
+  ('22222222-2222-2222-2222-222222222222', 'Alan Turing', 'alan@noto.test'),
+  ('33333333-3333-3333-3333-333333333333', 'Grace Hopper', 'grace@noto.test'),
+  ('44444444-4444-4444-4444-444444444444', 'Katherine Johnson', 'katherine@noto.test')
 on conflict (id) do nothing;
 
 -- A sample document owned by Ada and shared with Alan, so sharing is visible
