@@ -1,0 +1,14 @@
+Noto — Walkthrough Video
+========================
+
+Video URL: <PASTE LINK HERE>   (e.g. Loom / YouTube unlisted / Google Drive)
+
+Suggested 2-3 minute script:
+1. Live URL + log in as Ada (no password — simulated auth).
+2. Open "Welcome to Noto": edit text, demo bold/italic/underline, headings, lists;
+   point out the autosave indicator. Rename the doc.
+3. Open Share: grant Grace "viewer" and show Alan is already an "editor".
+4. Log out, log in as Grace: show the doc under "Shared with you", read-only.
+5. Log in as Alan (editor): edit the shared doc.
+6. Import a .md/.docx file -> becomes a new editable document, formatting preserved.
+7. (Optional) Refresh to show persistence.
