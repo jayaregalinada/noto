@@ -133,7 +133,7 @@ export function DocumentEditor({
               onChange={(event) => handleTitleChange(event.target.value)}
               onBlur={flush}
               aria-label="Document title"
-              className="h-9 border-transparent bg-transparent px-2 text-base font-medium shadow-none hover:border-input focus-visible:border-input"
+              className="h-9 min-w-0 flex-1 border-transparent bg-transparent px-2 text-base font-medium shadow-none hover:border-input focus-visible:border-input"
             />
           ) : (
             <h1 className="flex-1 truncate px-2 text-base font-medium">{title}</h1>
@@ -198,8 +198,8 @@ export function DocumentEditor({
 function SaveStatus({ state, editable }: { state: SaveState; editable: boolean }) {
   if (!editable) {
     return (
-      <span className="hidden items-center gap-1 text-xs text-muted-foreground sm:flex">
-        <IconCheck className="h-3.5 w-3.5" />
+      <span className="hidden shrink-0 items-center gap-1 whitespace-nowrap text-xs text-muted-foreground sm:flex">
+        <IconCheck className="h-3.5 w-3.5 shrink-0" />
         View only
       </span>
     );
@@ -215,7 +215,7 @@ function SaveStatus({ state, editable }: { state: SaveState; editable: boolean }
   const Icon = config.icon;
   return (
     <span className="hidden items-center gap-1 text-xs text-muted-foreground sm:flex">
-      <Icon className={`h-3.5 w-3.5 ${config.spin ? 'animate-spin' : ''}`} />
+      <Icon className={`h-3.5 w-3.5 shrink-0 ${config.spin ? 'animate-spin' : ''}`} />
       {config.label}
     </span>
   );
