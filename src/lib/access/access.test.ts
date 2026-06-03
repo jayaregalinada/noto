@@ -34,9 +34,9 @@ describe('resolveRole', () => {
 
   it('prefers ownership over any share row', () => {
     const ownerAlsoShared = [{ userId: OWNER, role: 'viewer' as const }];
-    expect(
-      resolveRole({ ownerId: OWNER, shares: ownerAlsoShared, userId: OWNER }),
-    ).toBe('owner');
+    expect(resolveRole({ ownerId: OWNER, shares: ownerAlsoShared, userId: OWNER })).toBe(
+      'owner',
+    );
   });
 });
 

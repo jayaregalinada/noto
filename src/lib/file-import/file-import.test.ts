@@ -79,8 +79,8 @@ describe('convertFileToDocument', () => {
   });
 
   it('throws on unsupported file types', async () => {
-    await expect(
-      convertFileToDocument('image.png', Buffer.from('x')),
-    ).rejects.toThrow(/Unsupported file type/);
+    await expect(convertFileToDocument('image.png', Buffer.from('x'))).rejects.toThrow(
+      /Unsupported file type/,
+    );
   });
 });
